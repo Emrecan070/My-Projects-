@@ -1,0 +1,30 @@
+#include <iostream>
+
+int main()
+{
+	
+		int Age1;
+		int Age2;
+
+		std::cout << "Enter your age: ";
+
+		std::cin >> Age1;
+
+		std::cout << "Enter your partner's age: ";
+
+		std::cin >> Age2;
+
+		int AgeGap{ Age2 - Age1 };
+
+
+		if (Age1 > Age2) {
+
+			std::cout << "Your age difference is " << Age1 - Age2 << std::endl;
+		}
+
+		else {
+
+			std::cout << "Your age difference is " << AgeGap << std::endl;
+
+		}
+}
